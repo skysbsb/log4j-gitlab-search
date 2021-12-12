@@ -9,10 +9,14 @@ Script to search for a word (i.e. log4j) in all gitlab repos (free version doesn
 #!/bin/bash
 
 
+# access token
 privatetoken="glpat-xxx"
+# cookie _gitlab_session
 token="xxx"
+# word to search
 word=log4j
-gitlaburl="gitlab.orgao.gov.br"
+# gitlab url
+gitlaburl="gitlab.mycompany.com"
 
 # set privatetoken/token/word before
 # get all project_id/group_id and path_with_namespace using gitlab API and stores them in p.txt file
