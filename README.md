@@ -7,7 +7,7 @@ Script to search for a word (i.e. log4j) in all gitlab repos (free version doesn
 ## Code
 ```bash
 #!/bin/bash
-
+# Created by David "skysbsb" Guimarães (skysbsb[at]gmail.com)
 
 # access token
 privatetoken="glpat-xxx"
