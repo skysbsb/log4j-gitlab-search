@@ -1,6 +1,9 @@
 # log4j-gitlab-search
 Script to search for a word (i.e. log4j) in all gitlab repos (free version doesn't allow bulk searchs)
 
+## Alternative
+In the long run, I suggest using the free version of the Source Graph (https://about.sourcegraph.com/) which allows you to synchronize all repositories from 1 host (your gitlab) and index all the code.
+
 ## Prerequisites
 - apt install html-xml-utils 
 
